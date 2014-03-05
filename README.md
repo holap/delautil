@@ -10,7 +10,9 @@ constraints.
 Example of template:
 
 {name.label}    | {name}    | {picture}
+
 {surname.label} | {surname} |     ^ 
+
 {tags.label}    | {tags}    :       
 
 This tamplate defines 3 columns with 3 rows.
