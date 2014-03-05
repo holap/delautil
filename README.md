@@ -7,7 +7,7 @@ The purpose of the utility is simplifying the creation of guis. It doesn't creat
 it adds components to container with supported layout manager (only GridBagLayout at the moment) with the proper
 constraints.
 
-Example of template:
+Example of template (better use fixed lenght font, watch as raw):
 
 {name.label}    | {name}    | {picture}
 
