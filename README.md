@@ -24,9 +24,13 @@ A Map<String, JComponent> will be used to map templates key to corrisponding JCo
 The map for the above template could look this:
 
 map.put("name.label", new JLabel("Name"));
+
 map.put("name", new JTextField(contact.getName()));
+
 map.put("surname.label", new JLabel("Surname"));
+
 map.put("name", new JTextField(contact.getSurname());
+
 map.put("tags", new JTextField(contact.getTags());
 
 While you can create the map by yourself, Dalautis is most suited for the use with frameworks that creates automatically components inspecting the property to bind. On data driven application, where most of constraints and information are already defined on entity classes, this would simply development and follow the DRY principle. If you need to create the component on your own than javabuilders is more appropriate.
